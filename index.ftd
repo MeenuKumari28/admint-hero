@@ -1,6 +1,8 @@
 -- ds.page: 
 full-width: true
 
+-- ds.h1: Hero Component 1
+
 -- admint-hero-one: Cyber Education
 sub-title: Building a resilient future through
 ;;bg-image: $assets.files.assets.back3.jpg
@@ -10,6 +12,7 @@ cta-link: /
 Lorem ipsum is placeholder text commonly used in the graphic, print, and
 publishing industries for previewing layouts and visual mockups.
 
+-- ds.h1: Hero Component 2
 
 -- admint-hero-two: Cyber Education
 sub-title: Building a resilient future through
@@ -19,6 +22,8 @@ cta-link: /
 
 Lorem ipsum is placeholder text commonly used in the graphic, print, and
 publishing industries for previewing layouts and visual mockups.
+
+-- ds.h1: Hero Component 3
 
 -- admint-hero-three: Cyber Education
 sub-title: Building a resilient future through
@@ -31,6 +36,7 @@ cta-link: /
 Lorem ipsum is placeholder text commonly used in the graphic, print, and
 publishing industries for previewing layouts and visual mockups.
 
+-- ds.h1: Hero Component 4
 
 -- admint-hero-four: Cyber Education
 sub-title: Building a resilient future through
