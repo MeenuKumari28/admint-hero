@@ -1,40 +1,708 @@
--- ds.page: Welcome to doc-site
+-- ds.page: 
+full-width: true
+
+-- admint-hero-one: Cyber Education
+sub-title: Building a resilient future through
+;;bg-image: $assets.files.assets.back3.jpg
+cta-text: Contact Us
+cta-link: /
+
+Lorem ipsum is placeholder text commonly used in the graphic, print, and
+publishing industries for previewing layouts and visual mockups.
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- admint-hero-two: Cyber Education
+sub-title: Building a resilient future through
+image: $assets.files.assets.back4.png
+cta-text: Contact Us
+cta-link: /
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+Lorem ipsum is placeholder text commonly used in the graphic, print, and
+publishing industries for previewing layouts and visual mockups.
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- admint-hero-three: Cyber Education
+sub-title: Building a resilient future through
+image-1: $assets.files.assets.back4.png
+image-2: $assets.files.assets.back4.png
+image-3: $assets.files.assets.back4.png
+cta-text: Contact Us
+cta-link: /
 
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+Lorem ipsum is placeholder text commonly used in the graphic, print, and
+publishing industries for previewing layouts and visual mockups.
 
 
--- ds.h3: 🎯 Used by?
+-- admint-hero-four: Cyber Education
+sub-title: Building a resilient future through
+image: $assets.files.assets.back3.jpg
+cta-text: Contact Us
+cta-link: /
 
-Our all documentation sites uses this `doc-site` theme.
-
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+Lorem ipsum is placeholder text commonly used in the graphic, print, and
+publishing industries for previewing layouts and visual mockups.
 
 -- end: ds.page
+
+
+
+
+
+
+
+-- ftd.background-image bg-image: 
+src: $assets.files.assets.back3.jpg
+repeat: no-repeat
+
+
+-- component admint-hero-one:
+caption title:
+optional string sub-title:
+optional body body:
+optional ftd.background-image bg-image:
+optional string cta-text:
+optional string cta-link:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.desktop:
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.image: $bg-image
+;;background.solid: $inherited.colors.accent.primary
+padding-vertical.px: 64
+padding-left.px: 102
+margin-bottom.px: 24
+
+-- ftd.column:
+width.fixed.px: 560
+height: auto
+background.solid: $inherited.colors.cta-tertiary.text
+spacing.fixed.px: 24
+padding.px: 24
+z-index: 5
+
+-- ftd.text: $admint-hero-one.title
+role: $inherited.types.heading-large
+color: $inherited.colors.accent.primary
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text 
+
+$admint-hero-one.body
+
+-- ftd.text: $admint-hero-one.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- ftd.text: $admint-hero-one.cta-text
+role: $inherited.types.button-large
+color: $inherited.colors.text-strong
+white-space: nowrap
+text-align: center
+padding-horizontal.px: 24
+padding-vertical.px: 18
+background.solid: $inherited.colors.accent.primary
+border-radius.px: 8
+link: $admint-hero-one.cta-link
+
+-- end: ftd.column
+
+-- ftd.column:
+background.solid: $inherited.colors.accent.primary
+width.fixed.px: 560
+height.fixed.px: 250
+anchor: parent
+bottom.px: 14
+left.px: 50
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.image: $bg-image
+padding.px: 24
+
+-- ftd.column:
+width: fill-container
+height: auto
+background.solid: $inherited.colors.cta-tertiary.text
+spacing.fixed.px: 24
+padding.px: 24
+z-index: 5
+
+-- ftd.text: $admint-hero-one.title
+role: $inherited.types.heading-large
+color: $inherited.colors.accent.primary
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text 
+
+$admint-hero-one.body
+
+-- ftd.text: $admint-hero-one.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- ftd.text: $admint-hero-one.cta-text
+role: $inherited.types.button-large
+color: $inherited.colors.text-strong
+white-space: nowrap
+text-align: center
+padding-horizontal.px: 24
+padding-vertical.px: 18
+background.solid: $inherited.colors.accent.primary
+border-radius.px: 8
+link: $admint-hero-one.cta-link
+
+-- end: ftd.column
+
+-- ftd.column:
+background.solid: $inherited.colors.accent.primary
+width.fixed.px: 250
+height.fixed.px: 250
+anchor: parent
+bottom.px: 8
+left.px: 8
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: admint-hero-one
+
+
+
+
+
+
+
+
+
+
+-- component admint-hero-two:
+caption title:
+optional string sub-title:
+optional body body:
+optional ftd.image-src image:
+optional string cta-text:
+optional string cta-link:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.desktop:
+
+-- ftd.row:
+width: fill-container
+height: fill-container
+spacing.fixed.px: 32
+align-self: center
+background.solid: $inherited.colors.accent.secondary
+padding.px: 64
+
+-- ftd.column:
+width.fixed.percent: 50
+spacing.fixed.px: 24
+padding-horizontal.px: 32
+align-self: center 
+
+-- ftd.column:
+height.fixed.px: 65
+width.fixed.px: 65
+border-radius.px: 100
+background.solid: $inherited.colors.accent.tertiary
+
+-- end: ftd.column
+
+-- ftd.column:
+spacing.fixed.px: 16
+
+-- ftd.text: $admint-hero-two.title
+role: $inherited.types.heading-large
+color: $inherited.colors.accent.primary
+
+-- ftd.text: $admint-hero-two.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- end: ftd.column
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text 
+
+$admint-hero-two.body
+
+-- ftd.text: $admint-hero-two.cta-text
+role: $inherited.types.button-large
+color: $inherited.colors.text-strong
+white-space: nowrap
+text-align: center
+padding-horizontal.px: 24
+padding-vertical.px: 18
+border-color: $inherited.colors.accent.primary
+border-width.px: 1
+border-radius.px: 8
+link: $admint-hero-two.cta-link
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $admint-hero-two.image
+width: auto
+
+-- ftd.column:
+height.fixed.px: 164
+width.fixed.px: 164
+border-radius.px: 100
+anchor: parent
+background.solid: $inherited.colors.accent.tertiary
+right.px: 112
+bottom.px: 0
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+spacing.fixed.px: 32
+align-self: center
+background.solid: $inherited.colors.accent.secondary
+padding-bottom.px: 116
+padding-horizontal.px: 16
+padding-top.px: 16
+
+-- ftd.column:
+spacing.fixed.px: 24
+padding-horizontal.px: 32
+
+-- ftd.column:
+height.fixed.px: 65
+width.fixed.px: 65
+border-radius.px: 100
+background.solid: $inherited.colors.accent.tertiary
+
+-- end: ftd.column
+
+-- ftd.text: $admint-hero-two.title
+role: $inherited.types.heading-large
+color: $inherited.colors.accent.primary
+
+-- ftd.text: $admint-hero-two.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text 
+
+$admint-hero-two.body
+
+-- ftd.text: $admint-hero-two.cta-text
+role: $inherited.types.button-large
+color: $inherited.colors.text-strong
+white-space: nowrap
+text-align: center
+padding-horizontal.px: 24
+padding-vertical.px: 18
+border-color: $inherited.colors.accent.primary
+border-width.px: 1
+border-radius.px: 8
+link: $admint-hero-two.cta-link
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $admint-hero-two.image
+width: fill-container
+
+-- ftd.column:
+height.fixed.px: 154
+width.fixed.px: 154
+border-radius.px: 100
+anchor: parent
+background.solid: $inherited.colors.accent.tertiary
+right.px: 12
+bottom.px: 12
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: admint-hero-two
+
+
+
+
+
+
+
+
+-- component admint-hero-three:
+caption title:
+optional string sub-title:
+optional body body:
+optional ftd.image-src image-1:
+optional ftd.image-src image-2:
+optional ftd.image-src image-3:
+optional string cta-text:
+optional string cta-link:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.desktop:
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: center
+margin-bottom.px: 350
+
+-- ftd.image:
+src: $admint-hero-three.image-1
+width.fixed.px: 772
+height.fixed.px: 515
+z-index: 2
+
+-- ftd.row:
+width.fixed.percent: 80
+spacing.fixed.px: 200
+
+-- ftd.column:
+width.fixed.px: 498
+height: auto
+spacing.fixed.px: 32
+background.solid: $inherited.colors.accent.secondary
+z-index: 5
+padding.px: 30
+margin-top.px: -58
+
+-- ftd.text: $admint-hero-three.title
+role: $inherited.types.heading-large
+color: $inherited.colors.accent.primary
+
+-- ftd.text: $admint-hero-three.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text 
+
+$admint-hero-three.body
+
+-- ftd.text: $admint-hero-three.cta-text
+role: $inherited.types.button-large
+color: $inherited.colors.text-strong
+white-space: nowrap
+text-align: center
+padding-horizontal.px: 24
+padding-vertical.px: 18
+border-color: $inherited.colors.accent.primary
+border-width.px: 1
+border-radius.px: 8
+link: $admint-hero-three.cta-link
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $admint-hero-three.image-2
+width.fixed.px: 684
+height.fixed.px: 518
+margin-top.px: 183
+z-index: 3
+right.px: 191
+anchor: parent
+
+-- ftd.image:
+src: $admint-hero-three.image-3
+width.fixed.px: 404
+height.fixed.px: 533
+z-index: 1
+margin-top.px: -216
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+margin-bottom.px: 350
+
+-- ftd.image:
+src: $admint-hero-three.image-1
+width.fixed.px: 300
+height.fixed.px: 218
+z-index: 2
+align-self: center
+
+-- ftd.column:
+width.fixed.px: 273
+height: auto
+spacing.fixed.px: 24
+background.solid: $inherited.colors.accent.secondary
+z-index: 5
+padding.px: 20
+margin-top.px: -58
+
+-- ftd.text: $admint-hero-three.title
+role: $inherited.types.heading-large
+color: $inherited.colors.accent.primary
+
+-- ftd.text: $admint-hero-three.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text 
+
+$admint-hero-three.body
+
+-- ftd.text: $admint-hero-three.cta-text
+role: $inherited.types.button-large
+color: $inherited.colors.text-strong
+white-space: nowrap
+text-align: center
+padding-horizontal.px: 24
+padding-vertical.px: 18
+border-color: $inherited.colors.accent.primary
+border-width.px: 1
+border-radius.px: 8
+link: $admint-hero-three.cta-link
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $admint-hero-three.image-2
+width.fixed.px: 293
+height.fixed.px: 205
+z-index: 3
+anchor: parent
+bottom.px: -110
+
+-- ftd.image:
+src: $admint-hero-three.image-3
+width.fixed.px: 222
+height.fixed.px: 303
+z-index: 1
+align-self: end
+margin-top.px: -112
+
+-- end: ftd.column
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: admint-hero-three
+
+
+
+
+
+
+
+-- component admint-hero-four:
+caption title:
+optional string sub-title:
+optional body body:
+optional ftd.image-src image:
+optional string cta-text:
+optional string cta-link:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.desktop:
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: center
+margin-bottom.px: 86
+
+-- ftd.column:
+width: fill-container
+height.fixed.px: 400
+border-radius.px: 1
+background.solid: $inherited.colors.accent.primary
+z-index: 1
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.px: 471
+spacing.fixed.px: 24
+padding.px: 30
+align-self: center 
+background.solid: $inherited.colors.cta-tertiary.text
+z-index: 5
+shadow: $s
+anchor: parent
+left.px: 60
+bottom.px: -32
+
+-- ftd.column:
+spacing.fixed.px: 16
+
+-- ftd.text: $admint-hero-four.title
+role: $inherited.types.heading-large
+color: $inherited.colors.accent.primary
+
+-- ftd.text: $admint-hero-four.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- end: ftd.column
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text 
+
+$admint-hero-four.body
+
+-- ftd.text: $admint-hero-four.cta-text
+role: $inherited.types.button-large
+color: $inherited.colors.text-strong
+white-space: nowrap
+text-align: center
+padding-horizontal.px: 24
+padding-vertical.px: 18
+border-color: $inherited.colors.accent.primary
+border-width.px: 1
+border-radius.px: 8
+link: $admint-hero-four.cta-link
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $admint-hero-four.image
+width.fixed.px: 963
+height.fixed.px: 651
+align-self: end
+z-index: 2
+margin-top.px: -324
+margin-right.px: 84
+
+-- end: ftd.column
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: center
+margin-bottom.px: 86
+
+-- ftd.column:
+width: fill-container
+height.fixed.px: 400
+border-radius.px: 1
+background.solid: $inherited.colors.accent.primary
+z-index: 1
+padding-top.px: 32
+
+-- ftd.image:
+src: $admint-hero-four.image
+width.fixed.px: 340
+height.fixed.px: 271
+z-index: 2
+align-self: center
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.px: 342
+spacing.fixed.px: 24
+padding.px: 30
+align-self: center 
+background.solid: $inherited.colors.cta-tertiary.text
+z-index: 5
+margin-top.px: -66
+shadow: $s
+
+-- ftd.column:
+spacing.fixed.px: 16
+
+-- ftd.text: $admint-hero-four.title
+role: $inherited.types.heading-large
+color: $inherited.colors.accent.primary
+
+-- ftd.text: $admint-hero-four.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- end: ftd.column
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text 
+
+$admint-hero-four.body
+
+-- ftd.text: $admint-hero-four.cta-text
+role: $inherited.types.button-large
+color: $inherited.colors.text-strong
+white-space: nowrap
+text-align: center
+padding-horizontal.px: 24
+padding-vertical.px: 18
+border-color: $inherited.colors.accent.primary
+border-width.px: 1
+border-radius.px: 8
+link: $admint-hero-four.cta-link
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: admint-hero-four
+
+
+
+-- ftd.shadow s:
+color: #ddd
+x-offset.px: 0
+y-offset.px: 0
+blur.px: 4
+inset-body: false
+spread.px: 1
