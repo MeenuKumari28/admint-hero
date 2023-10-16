@@ -85,7 +85,7 @@ margin-bottom.px: 24
 -- ftd.column:
 width.fixed.px: 560
 height: auto
-background.solid: $inherited.colors.cta-tertiary.text
+background.solid: $inherited.colors.accent.secondary
 spacing.fixed.px: 24
 padding.px: 24
 z-index: 5
@@ -574,7 +574,7 @@ width.fixed.px: 471
 spacing.fixed.px: 24
 padding.px: 30
 align-self: center 
-background.solid: $inherited.colors.cta-tertiary.text
+background.solid: $inherited.colors.accent.secondary
 z-index: 5
 shadow: $s
 anchor: parent
