@@ -6,8 +6,6 @@ full-width: true
 -- admint-hero-one: Cyber Education
 sub-title: Building a resilient future through
 ;;bg-image: $assets.files.assets.back3.jpg
-cta-text: Contact Us
-cta-link: /
 
 Lorem ipsum is placeholder text commonly used in the graphic, print, and
 publishing industries for previewing layouts and visual mockups.
@@ -17,8 +15,6 @@ publishing industries for previewing layouts and visual mockups.
 -- admint-hero-two: Cyber Education
 sub-title: Building a resilient future through
 image: $assets.files.assets.back4.png
-cta-text: Contact Us
-cta-link: /
 
 Lorem ipsum is placeholder text commonly used in the graphic, print, and
 publishing industries for previewing layouts and visual mockups.
@@ -30,8 +26,6 @@ sub-title: Building a resilient future through
 image-1: $assets.files.assets.back4.png
 image-2: $assets.files.assets.back4.png
 image-3: $assets.files.assets.back4.png
-cta-text: Contact Us
-cta-link: /
 
 Lorem ipsum is placeholder text commonly used in the graphic, print, and
 publishing industries for previewing layouts and visual mockups.
@@ -41,8 +35,24 @@ publishing industries for previewing layouts and visual mockups.
 -- admint-hero-four: Cyber Education
 sub-title: Building a resilient future through
 image: $assets.files.assets.back3.jpg
-cta-text: Contact Us
-cta-link: /
+
+Lorem ipsum is placeholder text commonly used in the graphic, print, and
+publishing industries for previewing layouts and visual mockups.
+
+-- ds.h1: Hero Component 5
+
+-- admint-hero-five: Cyber Education
+sub-title: Building a resilient future through
+image: $assets.files.assets.back3.jpg
+
+Lorem ipsum is placeholder text commonly used in the graphic, print, and
+publishing industries for previewing layouts and visual mockups.
+
+-- ds.h1: Hero Component 6
+
+-- admint-hero-six: Cyber Education
+sub-title: Building a resilient future through
+image: $assets.files.assets.back3.jpg
 
 Lorem ipsum is placeholder text commonly used in the graphic, print, and
 publishing industries for previewing layouts and visual mockups.
@@ -65,8 +75,6 @@ caption title:
 optional string sub-title:
 optional body body:
 optional ftd.background-image bg-image:
-optional string cta-text:
-optional string cta-link:
 
 -- ftd.column:
 width: fill-container
@@ -104,16 +112,6 @@ $admint-hero-one.body
 role: $inherited.types.heading-medium
 color: $inherited.colors.text-strong
 
--- ftd.text: $admint-hero-one.cta-text
-role: $inherited.types.button-large
-color: $inherited.colors.text-strong
-white-space: nowrap
-text-align: center
-padding-horizontal.px: 24
-padding-vertical.px: 18
-background.solid: $inherited.colors.accent.primary
-border-radius.px: 8
-link: $admint-hero-one.cta-link
 
 -- end: ftd.column
 
@@ -161,16 +159,6 @@ $admint-hero-one.body
 role: $inherited.types.heading-medium
 color: $inherited.colors.text-strong
 
--- ftd.text: $admint-hero-one.cta-text
-role: $inherited.types.button-large
-color: $inherited.colors.text-strong
-white-space: nowrap
-text-align: center
-padding-horizontal.px: 24
-padding-vertical.px: 18
-background.solid: $inherited.colors.accent.primary
-border-radius.px: 8
-link: $admint-hero-one.cta-link
 
 -- end: ftd.column
 
@@ -206,8 +194,6 @@ caption title:
 optional string sub-title:
 optional body body:
 optional ftd.image-src image:
-optional string cta-text:
-optional string cta-link:
 
 -- ftd.column:
 width: fill-container
@@ -254,18 +240,6 @@ role: $inherited.types.copy-large
 color: $inherited.colors.text 
 
 $admint-hero-two.body
-
--- ftd.text: $admint-hero-two.cta-text
-role: $inherited.types.button-large
-color: $inherited.colors.text-strong
-white-space: nowrap
-text-align: center
-padding-horizontal.px: 24
-padding-vertical.px: 18
-border-color: $inherited.colors.accent.primary
-border-width.px: 1
-border-radius.px: 8
-link: $admint-hero-two.cta-link
 
 -- end: ftd.column
 
@@ -326,18 +300,6 @@ color: $inherited.colors.text
 
 $admint-hero-two.body
 
--- ftd.text: $admint-hero-two.cta-text
-role: $inherited.types.button-large
-color: $inherited.colors.text-strong
-white-space: nowrap
-text-align: center
-padding-horizontal.px: 24
-padding-vertical.px: 18
-border-color: $inherited.colors.accent.primary
-border-width.px: 1
-border-radius.px: 8
-link: $admint-hero-two.cta-link
-
 -- end: ftd.column
 
 -- ftd.image:
@@ -377,8 +339,6 @@ optional body body:
 optional ftd.image-src image-1:
 optional ftd.image-src image-2:
 optional ftd.image-src image-3:
-optional string cta-text:
-optional string cta-link:
 
 -- ftd.column:
 width: fill-container
@@ -423,18 +383,6 @@ role: $inherited.types.copy-large
 color: $inherited.colors.text 
 
 $admint-hero-three.body
-
--- ftd.text: $admint-hero-three.cta-text
-role: $inherited.types.button-large
-color: $inherited.colors.text-strong
-white-space: nowrap
-text-align: center
-padding-horizontal.px: 24
-padding-vertical.px: 18
-border-color: $inherited.colors.accent.primary
-border-width.px: 1
-border-radius.px: 8
-link: $admint-hero-three.cta-link
 
 -- end: ftd.column
 
@@ -497,18 +445,6 @@ color: $inherited.colors.text
 
 $admint-hero-three.body
 
--- ftd.text: $admint-hero-three.cta-text
-role: $inherited.types.button-large
-color: $inherited.colors.text-strong
-white-space: nowrap
-text-align: center
-padding-horizontal.px: 24
-padding-vertical.px: 18
-border-color: $inherited.colors.accent.primary
-border-width.px: 1
-border-radius.px: 8
-link: $admint-hero-three.cta-link
-
 -- end: ftd.column
 
 -- ftd.image:
@@ -546,8 +482,6 @@ caption title:
 optional string sub-title:
 optional body body:
 optional ftd.image-src image:
-optional string cta-text:
-optional string cta-link:
 
 -- ftd.column:
 width: fill-container
@@ -599,18 +533,6 @@ role: $inherited.types.copy-large
 color: $inherited.colors.text 
 
 $admint-hero-four.body
-
--- ftd.text: $admint-hero-four.cta-text
-role: $inherited.types.button-large
-color: $inherited.colors.text-strong
-white-space: nowrap
-text-align: center
-padding-horizontal.px: 24
-padding-vertical.px: 18
-border-color: $inherited.colors.accent.primary
-border-width.px: 1
-border-radius.px: 8
-link: $admint-hero-four.cta-link
 
 -- end: ftd.column
 
@@ -681,18 +603,6 @@ color: $inherited.colors.text
 
 $admint-hero-four.body
 
--- ftd.text: $admint-hero-four.cta-text
-role: $inherited.types.button-large
-color: $inherited.colors.text-strong
-white-space: nowrap
-text-align: center
-padding-horizontal.px: 24
-padding-vertical.px: 18
-border-color: $inherited.colors.accent.primary
-border-width.px: 1
-border-radius.px: 8
-link: $admint-hero-four.cta-link
-
 -- end: ftd.column
 
 -- end: ftd.column
@@ -702,6 +612,317 @@ link: $admint-hero-four.cta-link
 -- end: ftd.column
 
 -- end: admint-hero-four
+
+
+
+
+
+
+
+
+
+
+
+-- component admint-hero-five:
+caption title:
+optional string sub-title:
+optional body body:
+optional ftd.image-src image:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.desktop:
+
+-- ftd.row:
+width: fill-container
+;;height: fill-container
+spacing.fixed.px: 64
+align-content: center
+margin-bottom.px: 80
+
+-- ftd.column:
+width.fixed.px: 342
+spacing.fixed.px: 32
+align-self: center
+
+-- ftd.column:
+width.fixed.px: 124
+height.fixed.px: 12
+background.solid: $inherited.colors.accent.primary
+
+-- end: ftd.column
+
+-- ftd.column:
+spacing.fixed.px: 16
+
+-- ftd.text: $admint-hero-five.title
+role: $inherited.types.heading-large
+color: $inherited.colors.accent.primary
+
+-- ftd.text: $admint-hero-five.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- end: ftd.column
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text 
+
+$admint-hero-five.body
+
+-- end: ftd.column
+
+-- ftd.row:
+max-width.fixed.percent: 50
+width.fixed.px: 800
+height.fixed.px: 834
+background.solid: $inherited.colors.accent.secondary
+z-index: 2
+
+-- ftd.image:
+src: $admint-hero-five.image
+width.fixed.px: 684
+align-self: center
+margin-left.px: -32
+height.fixed.px: 667
+z-index: 5
+fit: cover
+
+-- ftd.column:
+anchor: parent
+height.fixed.px: 318
+width.fixed.px: 466
+border-right-width.px: 20
+border-bottom-width.px: 20
+align-self: end
+right.px: 46
+bottom.px: 40
+border-color: $inherited.colors.accent.primary
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ftd.column:
+width: fill-container
+;;height: fill-container
+spacing.fixed.px: 32
+margin-bottom.px: 80
+
+-- ftd.column:
+width.fixed.px: 124
+height.fixed.px: 12
+background.solid: $inherited.colors.accent.primary
+
+-- end: ftd.column
+
+-- ftd.column:
+spacing.fixed.px: 16
+
+-- ftd.text: $admint-hero-five.title
+role: $inherited.types.heading-large
+color: $inherited.colors.accent.primary
+
+-- ftd.text: $admint-hero-five.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- end: ftd.column
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text 
+
+$admint-hero-five.body
+
+-- ftd.row:
+width.fixed.px: 300
+height.fixed.px: 420
+background.solid: $inherited.colors.accent.secondary
+z-index: 2
+align-self: end
+
+-- ftd.image:
+src: $admint-hero-five.image
+width.fixed.px: 322
+height.fixed.px: 322
+margin-top.px: 24
+margin-left.px: -76
+z-index: 5
+fit: cover
+
+-- ftd.column:
+anchor: parent
+height.fixed.px: 291
+width.fixed.px: 278
+border-right-width.px: 20
+border-bottom-width.px: 20
+align-self: end
+right.px: 18
+bottom.px: 40
+border-color: $inherited.colors.accent.primary
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: admint-hero-five
+
+
+
+
+
+
+
+
+
+
+-- component admint-hero-six:
+caption title:
+optional string sub-title:
+optional body body:
+optional ftd.image-src image:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.desktop:
+
+-- ftd.row:
+width: fill-container
+align-content: right
+padding-right.px: 124
+
+-- ftd.column:
+width.fixed.px: 424
+anchor: parent
+left.px: 248
+spacing.fixed.px: 24
+padding.px: 30
+align-self: center 
+background.solid: $inherited.colors.cta-tertiary.text
+z-index: 5
+shadow: $s
+
+-- ftd.column:
+spacing.fixed.px: 16
+
+-- ftd.text: $admint-hero-six.title
+role: $inherited.types.heading-large
+color: $inherited.colors.accent.primary
+
+-- ftd.text: $admint-hero-six.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- end: ftd.column
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text 
+
+$admint-hero-six.body
+
+-- end: ftd.column
+
+-- ftd.column:
+height.fixed.px: 791
+width.fixed.px: 791
+border-radius.percent: 100
+border-right-width.px: 20
+border-color: $inherited.colors.accent.primary
+z-index: 1
+align-content: center
+padding-right.px: 24
+
+-- ftd.image:
+src: $admint-hero-six.image
+height.fixed.px: 780
+width.fixed.px: 780
+border-radius.percent: 100
+fit: cover
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.column:
+height.fixed.px: 340
+width: fill-container
+border-radius.percent: 100
+border-right-width.px: 20
+border-color: $inherited.colors.accent.primary
+z-index: 1
+align-content: center
+padding-right.px: 6
+
+-- ftd.image:
+src: $admint-hero-six.image
+height.fixed.px: 340
+width: fill-container
+border-radius.percent: 100
+fit: cover
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 24
+padding.px: 30
+align-self: center 
+background.solid: $inherited.colors.cta-tertiary.text
+z-index: 5
+shadow: $s
+
+-- ftd.column:
+spacing.fixed.px: 16
+
+-- ftd.text: $admint-hero-six.title
+role: $inherited.types.heading-large
+color: $inherited.colors.accent.primary
+
+-- ftd.text: $admint-hero-six.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- end: ftd.column
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text 
+
+$admint-hero-six.body
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: admint-hero-six
 
 
 
