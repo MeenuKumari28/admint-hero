@@ -101,7 +101,6 @@ width: fill-container
 width: fill-container
 height: fill-container
 background.image: $admint-hero-one.bg-image
-;;background.solid: $inherited.colors.accent.primary
 padding-vertical.px: 64
 padding-left.px: 102
 margin-bottom.px: 24
@@ -127,7 +126,6 @@ $admint-hero-one.body
 -- ftd.text: $admint-hero-one.sub-title
 role: $inherited.types.heading-medium
 color: $inherited.colors.text-strong
-
 
 -- end: ftd.column
 
@@ -174,7 +172,6 @@ $admint-hero-one.body
 -- ftd.text: $admint-hero-one.sub-title
 role: $inherited.types.heading-medium
 color: $inherited.colors.text-strong
-
 
 -- end: ftd.column
 
@@ -348,6 +345,8 @@ bottom.px: 12
 
 
 
+
+
 -- component admint-hero-three:
 caption title:
 optional string sub-title:
@@ -486,6 +485,9 @@ margin-top.px: -112
 -- end: ftd.column
 
 -- end: admint-hero-three
+
+
+
 
 
 
@@ -638,7 +640,6 @@ $admint-hero-four.body
 
 
 
-
 -- component admint-hero-five:
 caption title:
 optional string sub-title:
@@ -652,7 +653,6 @@ width: fill-container
 
 -- ftd.row:
 width: fill-container
-;;height: fill-container
 spacing.fixed.px: 64
 align-content: center
 margin-bottom.px: 80
@@ -729,7 +729,6 @@ border-color: $inherited.colors.accent.primary
 
 -- ftd.column:
 width: fill-container
-;;height: fill-container
 spacing.fixed.px: 32
 margin-bottom.px: 80
 
@@ -1145,6 +1144,8 @@ color: $inherited.colors.text-strong
 -- end: ftd.column
 
 -- end: admint-hero-eight
+
+
 
 
 
