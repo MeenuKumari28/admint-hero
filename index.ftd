@@ -75,6 +75,17 @@ bg-image: $assets.files.assets.background.jpg
 Lorem ipsum is placeholder text commonly used in the graphic, print, and
 publishing industries for previewing layouts and visual mockups.
 
+-- ds.h1: Hero Component 9
+
+-- admint-hero-nine: Top Projects, Products & Trends
+sub-title: Building a resilient future through
+bg-image: $assets.files.assets.background.jpg
+
+Vulputate dignissim suspendisse in est ante in nibh mauris. Neque aliquam
+vestibulum morbi blandit cursus risus. Nisi est sit amet facilisis. Volutpat
+commodo sed egestas egestas. Id leo in vitae turpis massa sed elementum tempus.
+Non curabitur gravida arcu ac tortor dignissim convallis aenean.
+
 -- end: ds.page
 
 
@@ -1144,6 +1155,124 @@ color: $inherited.colors.text-strong
 -- end: ftd.column
 
 -- end: admint-hero-eight
+
+
+
+
+
+
+
+
+
+
+-- component admint-hero-nine:
+caption title:
+optional string sub-title:
+optional body body:
+optional ftd.background-image bg-image:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.desktop:
+
+-- ftd.row:
+width: fill-container
+height: fill-container
+min-height.fixed.px: 450
+spacing.fixed.px: 32
+align-self: center
+background.image: $admint-hero-nine.bg-image
+padding.px: 64
+
+-- ftd.column:
+width.fixed.percent: 35
+padding-horizontal.px: 32
+
+-- ftd.text: $admint-hero-nine.title
+role: $inherited.types.heading-hero
+color: $inherited.colors.accent.primary
+
+-- end: ftd.column
+
+-- ftd.column:
+height.fixed.px: 400
+border-width.px: 8
+border-color: $inherited.colors.accent.primary
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.percent: 35
+spacing.fixed.px: 16
+
+-- ftd.text: $admint-hero-nine.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text-strong
+
+$admint-hero-nine.body
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+spacing.fixed.px: 32
+align-self: center
+background.solid: $inherited.colors.accent.secondary
+padding-bottom.px: 116
+padding-horizontal.px: 16
+padding-top.px: 16
+
+-- ftd.text: $admint-hero-nine.title
+role: $inherited.types.heading-large
+color: $inherited.colors.accent.primary
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 8
+
+-- ftd.column:
+height.fixed.px: 400
+border-width.px: 8
+border-color: $inherited.colors.accent.primary
+
+-- end: ftd.column
+
+-- ftd.column:
+spacing.fixed.px: 18
+
+-- ftd.text: $admint-hero-nine.sub-title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text 
+
+$admint-hero-nine.body
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: admint-hero-nine
 
 
 
